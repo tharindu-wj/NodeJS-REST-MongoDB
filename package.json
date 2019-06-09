@@ -1,0 +1,19 @@
+{
+  "name": "node-rest-example",
+  "version": "1.0.0",
+  "description": "NodeJs REST example with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "killall -9 node && nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.14"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
