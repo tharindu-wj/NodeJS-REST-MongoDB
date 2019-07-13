@@ -14,4 +14,4 @@ app.use(express.json())
 const postsRouter = require('./routes/posts')
 app.use('/api/v1/posts', postsRouter)
 
-app.listen(5000, () => console.log('Server started'));
+app.listen(3001, () => console.log('Server started'));
